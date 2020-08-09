@@ -1,0 +1,15 @@
+[package]
+authors = ["HOGEHOGE"]
+edition = "2018"
+name = "RustReactTemplate-server"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+actix-rt = "1.0"
+actix-web = {
+    "git" : "https://github.com/actix/actix-web.git",
+    "rev" : "master"
+}
